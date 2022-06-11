@@ -1,0 +1,27 @@
+// Topbar
+.topbar {
+    background-color: $primary-clr;
+
+    // 767px
+    @media (max-width: $break-767) {
+        padding: 5px 0;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            display: inline-block;
+            &.logo {
+                img {
+                    height: 80px;
+
+                    // 767px
+                    @media (max-width: $break-767) {
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    }
+}

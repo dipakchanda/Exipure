@@ -1,0 +1,212 @@
+// Banner
+.hero-banner {
+    background-color: $primary-clr;
+    padding: 80px 0;
+    position: relative;
+
+    // 767px
+    @media (max-width: $break-767) {
+        padding-top: 0;
+        padding-bottom: 80px;
+    }
+    .sample-pro {
+    }
+    .heading {
+        color: $white-clr;
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 0px 3px 3px rgba($black-clr, 0.5);
+
+            // 767px
+            @media (max-width: $break-767) {
+                font-size: 2em;
+            }
+        }
+        p {
+            font-size: 18px;
+
+            // 767px
+            @media (max-width: $break-767) {
+                font-size: 1em;
+            }
+        }
+        .btn {
+            position: relative;
+            .stamp1 {
+                position: absolute;
+                max-width: 130px;
+                top: 50%;
+                right: -90px;
+                transform: translateY(-50%);
+
+                // 767px
+                @media (max-width: $break-767) {
+                    max-width: 80px;
+                    right: -60px;
+                }
+            }
+        }
+    }
+}
+
+// Products
+.products {
+    padding: 80px 0;
+
+    // 767px
+    @media (max-width: $break-767) {
+        padding: 50px 0 100px 0;
+    }
+    .leaf {
+        position: absolute;
+        max-width: 200px;
+
+        // 767px
+        @media (max-width: $break-767) {
+            max-width: 120px;
+        }
+        &.leaf1 {
+            left: 0;
+            bottom: 0;
+        }
+        &.leaf2 {
+            right: 0;
+            top: 0;
+        }
+    }
+    .img-cer {
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+// About Us
+.about {
+    padding: 80px 0;
+    background-color: $text-clr;
+
+    // 767px
+    @media (max-width: $break-767) {
+        padding: 50px 0;
+    }
+    .section_heading {
+        color: $white-clr;
+        h3 {
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+    }
+    p {
+        color: lighten($text-clr, 60%);
+        font-size: 18px;
+
+        // 767px
+        @media (max-width: $break-767) {
+            font-size: 1em;
+        }
+    }
+}
+
+// Testimonial
+.testimonial {
+    padding: 80px 0;
+
+    // 767px
+    @media (max-width: $break-767) {
+        padding: 50px 0;
+    }
+    .leaf {
+        position: absolute;
+        max-width: 200px;
+        z-index: 9;
+
+        // 767px
+        @media (max-width: $break-767) {
+            max-width: 90px;
+        }
+        &.leaf1 {
+            left: 0;
+            bottom: 0;
+        }
+        &.leaf2 {
+            right: 0;
+            top: 0;
+        }
+    }
+}
+
+// Faq
+.faq {
+    padding: 80px 0;
+    .leaf {
+        position: absolute;
+        max-width: 170px;
+
+        // 767px
+        @media (max-width: $break-767) {
+            max-width: 90px;
+        }
+        &.leaf1 {
+            left: 0;
+            top: 0;
+        }
+        &.leaf2 {
+            left: 0;
+            bottom: 0;
+        }
+        &.leaf3 {
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+        }
+    }
+}
+
+// Grid Text
+.grid-text {
+    padding: 80px 0 120px;
+
+    // 767px
+    @media (max-width: $break-767) {
+        padding: 50px 0 80px 0;
+    }
+
+    ul {
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style-type: decimal;
+        list-style-position: inside;
+        margin: 0 -15px;
+        li {
+            max-width: 50%;
+            padding: 0 15px;
+            margin-top: 15px;
+
+            // 767px
+            @media (max-width: $break-767) {
+                max-width: 100%;
+            }
+        }
+    }
+    .leaf {
+        position: absolute;
+        max-width: 200px;
+        z-index: 9;
+
+        // 767px
+        @media (max-width: $break-767) {
+            max-width: 90px;
+        }
+        &.leaf1 {
+            left: 0;
+            bottom: 0;
+        }
+        &.leaf2 {
+            right: 0;
+            top: 0;
+        }
+    }
+}

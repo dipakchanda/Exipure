@@ -1,0 +1,57 @@
+// Reset
+body {
+    font-family: $primary-ff;
+    font-size: $base-fz;
+    line-height: 1.5;
+    font-weight: 400;
+    color: $text-clr;
+    background-color: $white-clr;
+    overflow-x: hidden;
+
+    // 767px
+    @media (max-width: $break-767) {
+        font-size: 14px;
+    }
+}
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-family: $secondary-ff;
+}
+a {
+    text-decoration: none;
+    transition: 600ms;
+    &:hover {
+        text-decoration: none;
+    }
+}
+a,
+button,
+input,
+textarea,
+select {
+    &:focus,
+    &:hover,
+    &:active {
+        outline: none;
+        box-shadow: none;
+    }
+}
+img {
+    width: 100%;
+}
+section {
+    position: relative;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "exipure-package",
+  "version": "1.0.0",
+  "build": "CI= npm run build"
+}

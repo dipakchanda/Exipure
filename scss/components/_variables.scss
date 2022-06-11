@@ -1,0 +1,22 @@
+// Base
+$base-fz: 16px !default;
+$primary-ff: "Montserrat", sans-serif;
+$secondary-ff: "Playfair Display", serif;
+
+// Colors
+$no-clr: transparent;
+$primary-clr: #6dc237;
+$secondary-clr: #00585c;
+$white-clr: #ffffff;
+$black-clr: #000;
+$text-clr: #192236;
+
+// Media Sizes
+$break-1280: 1280px;
+$break-1080: 1080px;
+$break-991: 991px;
+$break-767: 768px;
+
+/*
+@media (max-width: $break-767) {}
+*/

@@ -1,0 +1,25 @@
+// Form
+.form-control {
+    padding: 12px 0px;
+    background-color: $no-clr;
+    color: inherit;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid darken($white-clr, 15%);
+    font-size: 1em;
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        background-color: $no-clr;
+        border-bottom-color: $primary-clr;
+    }
+    &::placeholder {
+        color: darken($white-clr, 15%);
+    }
+}
+textarea {
+    resize: none;
+}
+select.form-control {
+    height: auto !important;
+}
